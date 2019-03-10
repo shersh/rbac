@@ -1,4 +1,4 @@
-module github.com/ProtocolONE/rbac
+module github.com/shersh/rbac
 
 require (
 	github.com/billcobbler/casbin-redis-watcher v0.0.0-20180829182704-69cab1cdcf44
