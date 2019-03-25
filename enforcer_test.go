@@ -292,7 +292,7 @@ func TestEnforcer_GetPermissionsForUser_Filtered(t *testing.T) {
 	enf.AddPolicy(Policy{"admin", "vendor", "game", "*", "any", "allow"})
 	role := Role{"stan", "admin", "vendor", "alise", []string{"50"}}
 	role2 := Role{"stan", "admin", "vendor", "david", []string{"51"}}
-	role3 := Role{"stan", "admin", "vendor", "greg", []string{"52"}}
+	role3 := Role{"stan", "admin", "vendor", "greg", nil}
 	enf.AddRole(role)
 	enf.AddRole(role2)
 	enf.AddRole(role3)
